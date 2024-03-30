@@ -1,0 +1,14 @@
+1) Valutare se introdurre i concetti di "Temperature Difference" come ("Air Temperature" - "Process Temperature")
+   e "Power" come ("Coefficiente pari a circa 0.1" * "Torque" * "Rotation Speed") per performance evaluation.
+
+2) Verificare bene la colonna "Tool Wear", ad esemmpio se assume valori discreti o continui, etc...
+
+3) Encoding della classe "Type".
+
+4) Resample del dataset per bilanciare le classi (come? Undersampling od Oversampling? Misto di tutti e 2? Solo su train o anche su test set?)
+
+5) Come scalo i dati? Nel senso, li scalo tutti oppure solo quelli con valore continuo e non quelli categorici?
+
+6) faccio i PCA?
+
+7) Outliers non sembrano un problema ma meglio buttarci un occhio più avanti.
